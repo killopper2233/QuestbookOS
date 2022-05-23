@@ -1,32 +1,36 @@
+<!--- main feature of the desktop envrionment--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.5, maximum-scale=1.5, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro.min.css">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-colors.min.css">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-rtl.min.css">
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-icons.min.css">
+    <link rel="stylesheet" href="src/start.css">
 
     <title></title>
 </head>
-<body class="bg-darkIndigo fg-white h-vh-100 m4-cloak" data-role="touch">
+<body class="bg-darkIndigo fg-white h-vh-100 m4-cloak" allowPageScroll="data-allow-page-scroll">
 
     <div class="container-fluid start-screen h-100">
         <br> <!---break--->
-        <h1 class="start-screen-title">start</h1>
+        <br>
+        <br>
+        <!---<h1 class="start-screen-title">start</h1>--->
         <div class="tiles-area clear">
             <div class="tiles-grid tiles-group size-2 fg-white">
                 <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-blue fg-white">
                     <span class="mif-github icon"></span>
                     <span class="branding-bar">Github</span>
-                    <span class="badge-bottom">tap to open</span>
+                    <span class="badge-top">tap to open</span>
                 </a>
                 <div data-role="tile" class="bg-cyan fg-white">
                     <span class="mif-envelop icon"></span>
                     <span class="branding-bar">Email</span>
                 </div>
-                <div data-role="tile" class="bg-orange fg-white" data-size="wide">
+                <div data-role="tile" class="bg- fg-white" data-size="wide">
                     <span class="mif-home icon"></span>
                     <span class="branding-bar">Desktop</span>
                 </div>
@@ -52,7 +56,7 @@
                     <span class="mif-cog icon"></span>
                     <span class="branding-bar">settings</span>
                 </div>
-                <div data-role="tile" data-size="wide" class="bg-darkBlue fg-white"> 
+                <div data-role="tile" data-size="wide" class="bg-dark fg-white"> 
                     <span class="mif-facebook icon"></span>
                     <span class="branding-bar">Facebook</span>
                 </div>
@@ -60,14 +64,101 @@
             
             <div class="tiles-grid tiles-group size-2 fg-white">
                 <div data-role="tile" data-size="wide" class="bg-darkGreen fg-white"> 
-                    <span class="mif-add icon"></span>
-                    <span class="branding-bar">Add more apps</span>
+                    <span class="mif-blogger icon"></span>
+                    <span class="branding-bar">Google Blogger</span>
                 </div>
+            <div data-role="tile" data-size="medium" class="bg-red fg-white"> 
+                <span class="mif-music icon"></span>
+                <span class="branding-bar">Music</span>
+            </div>
+            <div data-role="tile" data-size="medium" class="bg-orange fg-white">
+                <span class="mif-amazon icon"></span>
+                <span class="branding-bar">Amazon</span>
+            </div>
+            <div data-role="tile" data-size="large" class="bg-lightGreen fg-white">
+                <span class="mif-bubbles icon"></span>
+                <span class="branding-bar">Messages</span>
+            </div>
+                
+            </div>
+
+            <div class="tiles-grid tiles-group size-2 fg-white" style="left: 80px;">
+            <div data-role="tile" data-size="medium" class="bg-orange fg-white">
+                <span class="mif-folder icon"></span>
+                <span class="branding-bar">Files</span>
+            </div>
+            <div data-role="tile" data-size="medium" class="bg-yellow fg-white">
+                <span class="mif-network-wifi icon"></span>
+                <span class="branding-bar">Network</span>
+            </div>
+            <div data-role="tile" data-size="wide" class="bg-blue fg-white">
+                <span class="mif-twitter icon"></span>
+                <span class="branding-bar">Twitter</span>
+            </div>
+            <div data-role="tile" data-size="medium" class="bg-red fg-white">
+                <span class="mif-youtube-play icon"></span>
+                <span class="branding-bar">YoutTube</span>
+            </div>
+            <div data-role="tile" data-size="medium" class="bg-green fg-white">
+                <span class="mif-yelp icon"></span>
+                <span class="branding-bar">Yelp</span>
+            </div>
+            <div data-role="tile" data-size="wide" class="bg-darkCyan fg-white">
+                <span class="mif-tablet icon"></span>
+                <span class="branding-bar">Configure Device</span>
             </div>
         </div>
-    
+            
+            <div class="tiles-grid tiles-group size-2 fg-white" style="left: 180px;">
+                <a href="https://github.com/olton/Metro-UI-CSS" data-role="tile" class="bg-blue fg-white">
+                    <span class="mif-github icon"></span>
+                    <span class="branding-bar">Github</span>
+                    <span class="badge-top">tap to open</span>
+                </a>
+                <div data-role="tile" class="bg-cyan fg-white">
+                    <span class="mif-envelop icon"></span>
+                    <span class="branding-bar">Email</span>
+                </div>
+                <div data-role="tile" class="bg- fg-white" data-size="wide">
+                    <span class="mif-home icon"></span>
+                    <span class="branding-bar">Desktop</span>
+                </div>
+                <div data-role="tile" data-size="small">
+                    <span class="mif-apple icon"></span>
+                    <span class="branding-bar">Apple</span>
+                </div>
+                
+                <div data-role="tile" data-size="small" class="bg-red fg-white">
+                    <span class="mif-google icon"></span>
+                    <span class="branding-bar" title="google">Google</span>
+                </div>
+                
+                <div data-role="tile" data-size="small" class="bg-teal fg-white col-1 row-6">
+                    <span class="mif-cart icon"></span>
+                    <span class="branding-bar">Store</span>
+                </div>
+                
+                <div data-role="tile" data-size="small" class="bg-brown fg-white col-2 row-6">
+                    <span class="mif-wind icon"></span>
+                </div>
+                <div data-role="tile" class="bg-cyan fg-white">
+                    <span class="mif-cog icon"></span>
+                    <span class="branding-bar">settings</span>
+                </div>
+                <div data-role="tile" data-size="wide" class="bg-dark fg-white"> 
+                    <span class="mif-facebook icon"></span>
+                    <span class="branding-bar">Facebook</span>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+            
 <script src="https://cdnjs.cloudflare.com/ajax/libs/metro/4.4.3/js/metro.min.js"></script>
-        <script src="src/start.js">
+<script src="src/metro/metroJs.js"></script>
+<script src="src/start.js"></script>
+<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
             
 </body>
 </html>
