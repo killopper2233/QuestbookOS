@@ -17,3 +17,4 @@ All applications will have their own .HTML files in different folders, thanks to
 * QuestbookOS will be built on top of the Linux Kernel
 * The desktop environment is powered by Google's V8 Javascript engine
 * User interface was created with HTML, CSS and Javascript
+* Everything else will be written in C / C++
