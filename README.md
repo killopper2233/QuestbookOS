@@ -8,5 +8,7 @@ Screenshots:
 
 ![Screenshot 2022-05-21 6 37 49 PM](https://user-images.githubusercontent.com/61961329/169674050-601086d1-2225-4c00-86d0-cd2ba33c0360.png)
 
-Start Screen.
-![Screenshot 2022-05-22 7 44 03 PM](https://user-images.githubusercontent.com/61961329/169728316-09ff542c-429b-43bc-8666-4b15e6f3d24b.png)
+Start Screen. [All apps that are present on screen execpt Settings will be removed in final release]
+![Screenshot 2022-05-22 10 57 22 PM](https://user-images.githubusercontent.com/61961329/169747922-c24096ae-9155-4ad6-b588-edcc565e973f.png)
+
+Apps will have their own .HTML files in different folders, thanks to the CSS and Javascript libraries that I am using in this build of qOS!
