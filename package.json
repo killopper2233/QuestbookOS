@@ -20,7 +20,10 @@
   "homepage": "https://github.com/killopper2233/QuestbookOS#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
     "geckodriver": "^3.0.1",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "metro-ui": "^3.0.15",
+    "metro4": "^4.5.0"
   }
 }
