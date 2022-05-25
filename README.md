@@ -23,7 +23,10 @@ Featued in every **ALMOST** mobile operating system, it is very important! Every
 ![Screenshot 2022-05-24 9 41 43 PM](https://user-images.githubusercontent.com/61961329/170175131-82d0e689-7d8c-40a6-b5ea-1cc98be0d26e.png)
 
 the code is very simple and easy, no need for Javascript (_yet_). More things such as Networking, Notifications and Cellular data will be added with Javascript. And maybe some shell programming **BASH basically!**
-
+### CODE:
+`````
+  <span style="width: 100%; height:3.2%;" class="bg-dark fg-white mif-backspace mif-2x icon" onclick="window.location.href='.../'"></span>
+`````
 ## How will this function?
 * QuestbookOS will be built on top of the Linux Kernel
 * The desktop environment is powered by Mozilla's Gecko!!
