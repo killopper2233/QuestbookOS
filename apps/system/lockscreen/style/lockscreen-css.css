@@ -1,0 +1,19 @@
+/* Lockscreen CSS */
+body{
+
+}
+.app-title {
+    position: fixed;
+    top: 80%;
+    font-size: 80px;
+}
+.title {
+    position: fixed;
+    left: 5px;
+}
+.lockscreen-time {
+    position: fixed;
+    top: 90%;
+    font-size: 40px;
+    font-weight: thin;
+}

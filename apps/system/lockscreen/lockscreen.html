@@ -17,9 +17,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/metro/4.4.3/js/metro.min.js"></script>
     <script src="src/metro/metroJs.js"></script>
     <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    <link rel="stylesheet" href="style/lockscreen-css.css">
 </head>
 
-<body>
-    <!--- start the actual process of the lockscreen--->
+<body class="bg-dark fg-white h-100" data-role="touch">
+    <style>
+        body {
+            background: url("style/img/wallpaper.png") center center no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <!---apply the status bar--->
+        <div style="width: 100%; height:3.5%;" class="bg-black fg-white"><span class="title">Welcome</span></div>
+    <!--- start the process of the lockscreen--->
+    <div class="container-fluid">
+    <h1 class="app-title" data-role="clock" class="w-auto fg-white reduce-1" data-show-date="false"></h1>
+        <!---date--->
+        <span class="app-title lockscreen-time">June 3rd, 2022</span>
+        
+    </div>
 </body>
 </html>

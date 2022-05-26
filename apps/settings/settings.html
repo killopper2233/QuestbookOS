@@ -13,38 +13,30 @@
 </head>
 
 <body class="bg-white fg-black start-screen h-100">
-    <div data-role="preloader" data-type="ring"></div>
-    <br>
+    
+    <!---status bar: include every time--->
+    <div style="width: 100%; height:3.5%;" class="bg-dark fg-white"><button class="fg-white button flat-button mif-backspace mif-3.5x icon" onclick="window.location.href='.../'"></button></div>
+    
+    <br><!---break--->
 <div class="container">
-    <h1 class="start-screen-title">Settings</h1>
-<ul class="navview-menu" data-expand="lg" data-compact="md">
-    <li class="item-header">Main pages</li>
-
-    <li>
-        <a href="#">
-            <span class="icon"><span class="mif-apps"></span></span>
-            <span class="caption">Apps</span>
-        </a>
-    </li>
-
-    <li class="item-separator"></li>
-
-    <li class="item-header">Office</li>
-
-    <li>
-        <a href="#">
-            <span class="icon"><span class="mif-file-word"></span></span>
-            <span class="caption">Word</span>
-        </a>
-    </li>
-    <li>
-        <a href="#">
-            <span class="icon"><span class="mif-file-excel"></span></span>
-            <span class="caption">Excel</span>
-        </a>
-    </li>
+       <br><!---break--->
+<h1 class="app-title">Settings</h1>
+<ul data-app-bar="true"
+    data-role="materialtabs"
+    data-fixed-tabs="true"
+    data-deep="true">
+    <li><a href="#">Networks</a></li>
+    <li><a href="#">Remove Applications</a></li>
+    <li><a href="#">System Configurations</a></li>
+    <li><a href="#">About Questbook OS</a></li>
 </ul>
 </div>
+<style>
+    .put-right {
+    left: auto;
+    right: 0;
+}
+</style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/metro/4.4.3/js/metro.min.js"></script>
 
